@@ -1,13 +1,9 @@
-### EXPERIMENT--01-ALP-FOR-8086
-
-Name :THARSHINI M
-
+# EXPERIMENT--01-ALP-FOR-8086
+```
+Name : THARSHINI M
 Roll no : 212224230287
-
-Date of experiment :01-05-2026
-
-
-
+Date of experiment : 29.04.2026
+```
 
 
 ## Aim: To Write and execute ALP on fundamental arithmetic and logical operations
@@ -82,64 +78,92 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 
 ## Addition  of 8 bit ALP 
 ```
-org 100h
-MOV AL,0BH
-MOV BL,05H
-ADD AL,BL
-hlt
+MOV AL, 74h
+MOV BL, 69h
+ADD AL, BL
+HTL
 ```
-
-
 
 ## Output  
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/64a6fe6f-412d-4053-87dc-67a2d7b07eba" />
+
+<img width="1143" height="609" alt="1(1)" src="https://github.com/user-attachments/assets/d530abed-194e-4182-8d31-fcb9ec392567" />
 
  
-## Subtraction   of 8 bit numbers  ALP
+## Subtraction   of 8 bit numbers  ALP 
 ```
-org 100h
-MOV AL,0BH
-MOV BL,05H
-SUB AL,BL 
-hlt
-```
- 
-## Output  
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/10fdf2ca-a10c-4215-b262-9ac9c180c83c" />
-
-## Multiplication alp
-```
-org 100h
-MOV AL, 0BH
-MOV BL, 05H
-MUL BL
-hlt
-```
-## Output:
-
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/81c16e4e-5eb5-4f25-b81e-0f1d7c1f85fc" />
-
-
-
-## Division alp 
-```
-org 100h
-MOV AL, 0BH
-MOV BL, 05H
-DIV BL
-hlt
+MOV al, 74
+MOV bl, 69
+SUB al, bl
+HTL
 ```
 
 ## Output
 
-<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/059c88f6-b9ae-4599-ae48-baa2d3d6ffb2" />
+<img width="1128" height="602" alt="1(2)" src="https://github.com/user-attachments/assets/6052c49c-f613-4d6f-8aae-17c1e7556ea9" />
 
+
+## Multiplication alp 
+```
+org 200h
+MOV al, 75
+MOV bl, 32
+MUL al, bl
+HTL
+ret
+```
+## Output  
+
+<img width="1089" height="623" alt="1(3)" src="https://github.com/user-attachments/assets/739345d2-1fa2-475b-ab3c-1ba687a6d3d0" />
+
+## Division alp 
+```
+MOV al, 68
+MOV bl, 18
+DIV al, bl
+HTL
+ret
+```
+## Output  
+
+<img width="1094" height="548" alt="1(4)" src="https://github.com/user-attachments/assets/7dc17cf3-a91c-4f8e-90e0-b89aca2e3195" />
+
+
+## And of 8 bit numbers ALP
+```
+MOV AL,33H
+MOV BL,44H
+AND AL,BL
+HLT
+```
+## output 
+
+![Screenshot 2025-02-28 085825](https://github.com/user-attachments/assets/72f146a3-28ac-4ca7-9213-7012013e09f3)
+
+## OR of 8 bit numbers ALP
+```
+MOV AL,33H
+MOV BL,44H
+OR AL,BL
+HLT
+```
+## output
+
+![Screenshot 2025-02-28 090133](https://github.com/user-attachments/assets/db5ba230-8656-46ee-bfbc-4aa468ae1730)
+
+## NOT of 8 bit number ALP
+```
+MOV AL,65H
+NOT AL
+HLT
+```
+
+## output
+![Screenshot 2025-02-28 090359](https://github.com/user-attachments/assets/c57eee7a-b6e6-4815-8775-0cc3ec0f4282)
 
 
 ## Result :
-
- The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
-
+ 
+The execution of ALP on fundamental arithmetic and logical operations is successfully completed.
 
 
 
